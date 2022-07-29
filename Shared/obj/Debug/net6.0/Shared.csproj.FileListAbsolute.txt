@@ -1,0 +1,12 @@
+/home/marco/Desktop/projetos/mintMoney/Shared/bin/Debug/net6.0/Shared.deps.json
+/home/marco/Desktop/projetos/mintMoney/Shared/bin/Debug/net6.0/Shared.dll
+/home/marco/Desktop/projetos/mintMoney/Shared/bin/Debug/net6.0/Shared.pdb
+/home/marco/Desktop/projetos/mintMoney/Shared/obj/Debug/net6.0/Shared.csproj.AssemblyReference.cache
+/home/marco/Desktop/projetos/mintMoney/Shared/obj/Debug/net6.0/Shared.GeneratedMSBuildEditorConfig.editorconfig
+/home/marco/Desktop/projetos/mintMoney/Shared/obj/Debug/net6.0/Shared.AssemblyInfoInputs.cache
+/home/marco/Desktop/projetos/mintMoney/Shared/obj/Debug/net6.0/Shared.AssemblyInfo.cs
+/home/marco/Desktop/projetos/mintMoney/Shared/obj/Debug/net6.0/Shared.csproj.CoreCompileInputs.cache
+/home/marco/Desktop/projetos/mintMoney/Shared/obj/Debug/net6.0/Shared.dll
+/home/marco/Desktop/projetos/mintMoney/Shared/obj/Debug/net6.0/refint/Shared.dll
+/home/marco/Desktop/projetos/mintMoney/Shared/obj/Debug/net6.0/Shared.pdb
+/home/marco/Desktop/projetos/mintMoney/Shared/obj/Debug/net6.0/ref/Shared.dll

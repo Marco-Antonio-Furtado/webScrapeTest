@@ -1,0 +1,17 @@
+/home/marco/Desktop/projetos/mintMoney/DataAccessLayer/bin/Debug/net6.0/DataAccessLayer.deps.json
+/home/marco/Desktop/projetos/mintMoney/DataAccessLayer/bin/Debug/net6.0/DataAccessLayer.dll
+/home/marco/Desktop/projetos/mintMoney/DataAccessLayer/bin/Debug/net6.0/DataAccessLayer.pdb
+/home/marco/Desktop/projetos/mintMoney/DataAccessLayer/bin/Debug/net6.0/Entities.dll
+/home/marco/Desktop/projetos/mintMoney/DataAccessLayer/bin/Debug/net6.0/Shared.dll
+/home/marco/Desktop/projetos/mintMoney/DataAccessLayer/bin/Debug/net6.0/Shared.pdb
+/home/marco/Desktop/projetos/mintMoney/DataAccessLayer/bin/Debug/net6.0/Entities.pdb
+/home/marco/Desktop/projetos/mintMoney/DataAccessLayer/obj/Debug/net6.0/DataAccessLayer.csproj.AssemblyReference.cache
+/home/marco/Desktop/projetos/mintMoney/DataAccessLayer/obj/Debug/net6.0/DataAccessLayer.GeneratedMSBuildEditorConfig.editorconfig
+/home/marco/Desktop/projetos/mintMoney/DataAccessLayer/obj/Debug/net6.0/DataAccessLayer.AssemblyInfoInputs.cache
+/home/marco/Desktop/projetos/mintMoney/DataAccessLayer/obj/Debug/net6.0/DataAccessLayer.AssemblyInfo.cs
+/home/marco/Desktop/projetos/mintMoney/DataAccessLayer/obj/Debug/net6.0/DataAccessLayer.csproj.CoreCompileInputs.cache
+/home/marco/Desktop/projetos/mintMoney/DataAccessLayer/obj/Debug/net6.0/DataAccessLayer.csproj.CopyComplete
+/home/marco/Desktop/projetos/mintMoney/DataAccessLayer/obj/Debug/net6.0/DataAccessLayer.dll
+/home/marco/Desktop/projetos/mintMoney/DataAccessLayer/obj/Debug/net6.0/refint/DataAccessLayer.dll
+/home/marco/Desktop/projetos/mintMoney/DataAccessLayer/obj/Debug/net6.0/DataAccessLayer.pdb
+/home/marco/Desktop/projetos/mintMoney/DataAccessLayer/obj/Debug/net6.0/ref/DataAccessLayer.dll

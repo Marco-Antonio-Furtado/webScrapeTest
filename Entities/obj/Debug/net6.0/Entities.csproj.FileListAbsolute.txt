@@ -1,0 +1,15 @@
+/home/marco/Desktop/projetos/mintMoney/Entities/bin/Debug/net6.0/Entities.deps.json
+/home/marco/Desktop/projetos/mintMoney/Entities/bin/Debug/net6.0/Entities.dll
+/home/marco/Desktop/projetos/mintMoney/Entities/bin/Debug/net6.0/Entities.pdb
+/home/marco/Desktop/projetos/mintMoney/Entities/bin/Debug/net6.0/Shared.dll
+/home/marco/Desktop/projetos/mintMoney/Entities/bin/Debug/net6.0/Shared.pdb
+/home/marco/Desktop/projetos/mintMoney/Entities/obj/Debug/net6.0/Entities.csproj.AssemblyReference.cache
+/home/marco/Desktop/projetos/mintMoney/Entities/obj/Debug/net6.0/Entities.GeneratedMSBuildEditorConfig.editorconfig
+/home/marco/Desktop/projetos/mintMoney/Entities/obj/Debug/net6.0/Entities.AssemblyInfoInputs.cache
+/home/marco/Desktop/projetos/mintMoney/Entities/obj/Debug/net6.0/Entities.AssemblyInfo.cs
+/home/marco/Desktop/projetos/mintMoney/Entities/obj/Debug/net6.0/Entities.csproj.CoreCompileInputs.cache
+/home/marco/Desktop/projetos/mintMoney/Entities/obj/Debug/net6.0/Entities.csproj.CopyComplete
+/home/marco/Desktop/projetos/mintMoney/Entities/obj/Debug/net6.0/Entities.dll
+/home/marco/Desktop/projetos/mintMoney/Entities/obj/Debug/net6.0/refint/Entities.dll
+/home/marco/Desktop/projetos/mintMoney/Entities/obj/Debug/net6.0/Entities.pdb
+/home/marco/Desktop/projetos/mintMoney/Entities/obj/Debug/net6.0/ref/Entities.dll

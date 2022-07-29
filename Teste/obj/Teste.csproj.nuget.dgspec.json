@@ -1,0 +1,312 @@
+{
+  "format": 1,
+  "restore": {
+    "/home/marco/Desktop/projetos/mintMoney/Teste/Teste.csproj": {}
+  },
+  "projects": {
+    "/home/marco/Desktop/projetos/mintMoney/BussinessLogicalLayer/BussinessLogicalLayer.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/home/marco/Desktop/projetos/mintMoney/BussinessLogicalLayer/BussinessLogicalLayer.csproj",
+        "projectName": "BussinessLogicalLayer",
+        "projectPath": "/home/marco/Desktop/projetos/mintMoney/BussinessLogicalLayer/BussinessLogicalLayer.csproj",
+        "packagesPath": "/home/marco/.nuget/packages/",
+        "outputPath": "/home/marco/Desktop/projetos/mintMoney/BussinessLogicalLayer/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/home/marco/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "/home/marco/Desktop/projetos/mintMoney/DataAccessLayer/DataAccessLayer.csproj": {
+                "projectPath": "/home/marco/Desktop/projetos/mintMoney/DataAccessLayer/DataAccessLayer.csproj"
+              },
+              "/home/marco/Desktop/projetos/mintMoney/Entities/Entities.csproj": {
+                "projectPath": "/home/marco/Desktop/projetos/mintMoney/Entities/Entities.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/6.0.302/RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/home/marco/Desktop/projetos/mintMoney/DataAccessLayer/DataAccessLayer.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/home/marco/Desktop/projetos/mintMoney/DataAccessLayer/DataAccessLayer.csproj",
+        "projectName": "DataAccessLayer",
+        "projectPath": "/home/marco/Desktop/projetos/mintMoney/DataAccessLayer/DataAccessLayer.csproj",
+        "packagesPath": "/home/marco/.nuget/packages/",
+        "outputPath": "/home/marco/Desktop/projetos/mintMoney/DataAccessLayer/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/home/marco/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "/home/marco/Desktop/projetos/mintMoney/Entities/Entities.csproj": {
+                "projectPath": "/home/marco/Desktop/projetos/mintMoney/Entities/Entities.csproj"
+              },
+              "/home/marco/Desktop/projetos/mintMoney/Shared/Shared.csproj": {
+                "projectPath": "/home/marco/Desktop/projetos/mintMoney/Shared/Shared.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "HtmlAgilityPack": {
+              "target": "Package",
+              "version": "[1.11.43, )"
+            },
+            "newtonSoft.json": {
+              "target": "Package",
+              "version": "[13.0.1, )"
+            },
+            "selenium.webdriver": {
+              "target": "Package",
+              "version": "[4.3.0, )"
+            },
+            "selenium.webdriver.chromedriver": {
+              "target": "Package",
+              "version": "[103.0.5060.13400, )"
+            },
+            "webdriverchromedriver": {
+              "target": "Package",
+              "version": "[2.10.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/6.0.302/RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/home/marco/Desktop/projetos/mintMoney/Entities/Entities.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/home/marco/Desktop/projetos/mintMoney/Entities/Entities.csproj",
+        "projectName": "Entities",
+        "projectPath": "/home/marco/Desktop/projetos/mintMoney/Entities/Entities.csproj",
+        "packagesPath": "/home/marco/.nuget/packages/",
+        "outputPath": "/home/marco/Desktop/projetos/mintMoney/Entities/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/home/marco/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "/home/marco/Desktop/projetos/mintMoney/Shared/Shared.csproj": {
+                "projectPath": "/home/marco/Desktop/projetos/mintMoney/Shared/Shared.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/6.0.302/RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/home/marco/Desktop/projetos/mintMoney/Shared/Shared.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/home/marco/Desktop/projetos/mintMoney/Shared/Shared.csproj",
+        "projectName": "Shared",
+        "projectPath": "/home/marco/Desktop/projetos/mintMoney/Shared/Shared.csproj",
+        "packagesPath": "/home/marco/.nuget/packages/",
+        "outputPath": "/home/marco/Desktop/projetos/mintMoney/Shared/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/home/marco/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/6.0.302/RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/home/marco/Desktop/projetos/mintMoney/Teste/Teste.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/home/marco/Desktop/projetos/mintMoney/Teste/Teste.csproj",
+        "projectName": "Teste",
+        "projectPath": "/home/marco/Desktop/projetos/mintMoney/Teste/Teste.csproj",
+        "packagesPath": "/home/marco/.nuget/packages/",
+        "outputPath": "/home/marco/Desktop/projetos/mintMoney/Teste/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/home/marco/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "/home/marco/Desktop/projetos/mintMoney/BussinessLogicalLayer/BussinessLogicalLayer.csproj": {
+                "projectPath": "/home/marco/Desktop/projetos/mintMoney/BussinessLogicalLayer/BussinessLogicalLayer.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/6.0.302/RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
