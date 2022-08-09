@@ -1,5 +1,8 @@
 using OpenQA.Selenium;
 using OpenQA.Selenium.Firefox;
+using OpenQA.Selenium.Support.UI;
+
+
 
 namespace DataAccessLayer
 {
@@ -33,6 +36,36 @@ namespace DataAccessLayer
 
             //print('Number of scraped images: ', len(images))
 
+        }
+        public static List<string> ScrapeInstagramWithDefaultAccount()
+        {
+            
+            FirefoxOptions options = new();
+
+            //makes the browser invisible
+            options.AddArgument("--headless");
+            FirefoxDriver driverFox = new FirefoxDriver(options);
+
+            //opens the website and wait it load
+            driverFox.Navigate().GoToUrl("https://www.instagram.com/");
+            Thread.Sleep(4000);
+            
+            
+            //WebDriverWait wait = new WebDriverWait(driverFox, TimeSpan.FromSeconds(10));
+            //IWebElement firstResult = wait.Until(e => e.FindElement(By.XPath("//a/h3")));
+            
+            
+            //scrolls down to scrape more images
+
+            //targets all images on the page
+            var imgs = driverFox.FindElements(By.TagName("img"));
+            List<string> sources = new();
+
+            foreach (var img in imgs)
+            {
+                sources.Add(img.GetAttribute("src").ToString());
+            }
+            return sources;
         }
 
     }
