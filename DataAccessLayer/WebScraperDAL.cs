@@ -1,7 +1,7 @@
 using OpenQA.Selenium;
 using OpenQA.Selenium.Firefox;
 using OpenQA.Selenium.Support.UI;
-
+using Shared;
 
 
 namespace DataAccessLayer
@@ -39,7 +39,7 @@ namespace DataAccessLayer
         }
         public static List<string> ScrapeInstagramWithDefaultAccount()
         {
-            
+
             FirefoxOptions options = new();
 
             //makes the browser invisible
@@ -49,12 +49,17 @@ namespace DataAccessLayer
             //opens the website and wait it load
             driverFox.Navigate().GoToUrl("https://www.instagram.com/");
             Thread.Sleep(4000);
-            
-            
+
+
             //WebDriverWait wait = new WebDriverWait(driverFox, TimeSpan.FromSeconds(10));
             //IWebElement firstResult = wait.Until(e => e.FindElement(By.XPath("//a/h3")));
-            
-            
+            //username = WebDriverWait(driver, 10).until(EC.element_to_be_clickable((By.CSS_SELECTOR, "input[name='username']")))
+            //password = WebDriverWait(driver, 10).until(EC.element_to_be_clickable((By.CSS_SELECTOR, "input[name='password']")))
+
+
+            //DotEnv.DEFAULT_USERNAME
+            //DotEnv.DEFAULT_PASSWORD
+
             //scrolls down to scrape more images
 
             //targets all images on the page
