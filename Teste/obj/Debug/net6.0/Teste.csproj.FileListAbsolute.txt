@@ -25,3 +25,4 @@
 /home/marco/Desktop/projetos/mintMoney/Teste/bin/Debug/net6.0/Shared.pdb
 /home/marco/Desktop/projetos/mintMoney/Teste/obj/Debug/net6.0/Teste.csproj.CopyComplete
 /home/marco/Desktop/projetos/mintMoney/Teste/bin/Debug/net6.0/WebDriver.dll
+/home/marco/Desktop/projetos/mintMoney/Teste/bin/Debug/net6.0/SeleniumExtras.WaitHelpers.dll

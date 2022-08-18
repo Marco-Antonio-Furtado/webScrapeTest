@@ -10,7 +10,7 @@ namespace BussinessLogicalLayer
     {
         public static List<string> Scrape()
         {
-            return WebScraperDAL.ScrapeInstagramSelenium("");
+            return WebScraperDAL.ScrapeInstagramWithDefaultAccount(false, "neymarjr");
         }
     }
 }
