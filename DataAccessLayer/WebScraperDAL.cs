@@ -50,6 +50,7 @@ namespace DataAccessLayer
             {
                 options.AddArgument("--headless");
             }
+            options.AddArgument("--incognito");
 
             FirefoxDriver driver = new FirefoxDriver(options);
 
@@ -80,24 +81,25 @@ namespace DataAccessLayer
 
             //scrolls down to scrape more images
             //maybe the index could be a parameter, so the user could define how much they want to scroll
-            List<string> sources = new();
 
             for (int i = 1; i < 16; i = i + 4)
             {
                 wait.Until(ExpectedConditions.ElementIsVisible(By.XPath("/html/body/div[1]/div/div/div/div[1]/div/div/div/div[1]/div[1]/section/main/div/div[3]/article/div[1]/div/div[" + i + "]")));
                 driver.ExecuteScript("window.scrollTo(0, 4000);");
-
-                //targets all images on the page
-                ReadOnlyCollection<IWebElement> imgs = driver.FindElements(By.TagName("img"));
-
-                foreach (IWebElement img in imgs)
-                {
-                    //TA DANDO EXCEPTION AQUI!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
-                    sources.Add(img.GetAttribute("src").ToString());
-                }
             }
+            //target all images on the page
 
-            return sources;
+            //O DOM ATUALIZA E TAMO PERDENDENDO AS IMAGENS DE CIMA QUANDO DESCEMOS!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+
+            //wait.Until(ExpectedConditions.ElementIsVisible(By.XPath("/html/body/div[1]/div/div/div/div[1]/div/div/div/div[1]/div[1]/section/main/div/div[3]")));
+            var imgs = driver.FindElements(By.TagName("img"));
+            List<string> sources = new();
+
+            foreach (var img in imgs)
+            {
+                sources.Add(img.GetAttribute("src").ToString());
+            }
+            return sources.SkipLast(1).ToList();
         }
 
     }
